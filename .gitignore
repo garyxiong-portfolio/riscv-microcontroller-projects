@@ -1,0 +1,10 @@
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+.vscode/
+# PlatformIO build and dependency cache
+.pio/
+.pioenvs/
+.piolibdeps/

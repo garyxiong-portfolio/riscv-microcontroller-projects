@@ -1,6 +1,6 @@
 # RISC-V Microcontroller Projects
 
-RISC-V assembly projects developed by Gary Xiong for ECE 222 at the University of Waterloo. The programs run on the SiFive FE310 MCU on the SparkFun Thing Plus V and use memory-mapped GPIO, software timing, subroutines, and interrupts.
+RISC-V assembly projects by Gary Xiong for the SiFive FE310 MCU on the SparkFun Thing Plus V. The programs use memory-mapped GPIO, software timing, subroutines, and interrupts.
 
 ## Featured project: Reaction time tester
 
@@ -27,8 +27,8 @@ Each folder is a separate PlatformIO project with its own `platformio.ini`.
 
 The saved configuration selects `platform = sifive`, `board = sparkfun_thing_plus_v`, and `framework = freedom-e-sdk`. Each `src` folder contains the assembly program and C entry-point/header files. The external LED bar and push-button wiring must match the GPIO constants in the source.
 
-Build outputs and editor caches are excluded. The source has not been rebuilt or re-tested on hardware as part of this repository setup.
+Build outputs and editor caches are excluded. The source has not been rebuilt or re-tested on hardware as part of this documentation update.
 
 ## Attribution
 
-These are coursework implementations using course-provided scaffolding. Existing third-party notices are retained. No blanket license is applied to course or vendor materials.
+The assembly programs use supplied startup and interface scaffolding. Existing third-party notices are retained. Supplied components retain their original terms; no blanket license is applied to this repository.
